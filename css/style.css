@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(221, 255, 221);
+}
+#box{
+    height: 20rem;
+    width: 30rem;
+    box-shadow:2px 2px 5px 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 31em;
+    top: 10em;
+    /* align-items: end; */
+}
+#age_label{
+    font-size: 2.5em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+.header{
+    background-color: aquamarine;
+    width: 112.5%;
+}
+#input{
+    position: relative;
+    top: 10px;
+    background-color: rgb(199, 200, 201);
+    color: black;
+    left: 80px;
+    width: 70%;
+    height: 30px;
+}
+.submit{
+    background-color: darkgray;
+    color: black;
+    position: relative;
+    left: 170px;
+    top: 20px;
+    width: 30%;
+}
